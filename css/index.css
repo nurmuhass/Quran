@@ -1,0 +1,394 @@
+body{
+	margin:0;
+	padding:0;
+	background:#ffffce;
+	border:5px solid #000;
+}
+
+#container{
+	width:100%;
+	background:#ffffce;
+	padding:10px 10px;
+}
+
+@media (max-width:991px) {
+	#container{
+		width:98%;
+		background:#ffffce;
+     	overflow: hidden;
+		padding:10px 10px;
+		height: 100%;
+		align-self: center;
+        align-items: center;
+		margin: 10;
+		margin-bottom: 100%;
+	}
+}
+
+#title{
+	width:100%;
+	font-size:24px;
+	text-align:center;
+	font-family:Tahoma;
+}
+
+#controls{
+	width:40%;
+	float:left;
+	margin:3% 10px;
+	padding:5px 10px;
+	border:1px solid #666;
+}
+
+@media (max-width: 991px) {
+	#controls{
+		width:40%;
+		float:left;
+		margin:3% 10px;
+		padding:5px 10px;
+		border:1px solid #666;
+	}
+	
+}
+
+#displays{
+	width:95%;
+	float:left;
+	margin:3% 8px;
+	border:1px solid #666;
+	height:100%;
+	overflow:auto;
+}
+
+#displays img{
+	margin-top:20px;
+	width:50%;
+}
+
+.heading{
+	font-size:24px;
+	text-decoration:underline;
+}
+
+@media (max-width: 991px) {
+	
+	
+	
+}
+
+.surah{
+	width:100%;
+	height:35px;
+}
+
+.surah_select{
+	width:80%;
+	margin:0 10%;
+	height:35px;
+}
+
+.surah_no{
+	width:25%;
+	height:20px;
+}
+
+.surah_display{
+	width:40%;
+	height:30px;
+	float:right;
+}
+
+.select{
+	width:20%;
+	margin-left:70%;
+	margin-top:10px;
+	height:30px;
+}
+
+/*	LOGIN
+----------------------*/
+#form_login{
+	width:50%;
+	margin:10% 35%;
+}
+
+#form{
+	font-size:13px;
+	font-family:arial;
+	background:#fff;
+	padding:20px 25px;
+}
+
+#feedback_login{
+	background-color:#ffffff;
+	float:left;
+	width:50%;
+	min-height:40px;
+	margin-bottom:2%;
+	border-radius:5px;
+	border:0px;
+	color:red;
+	font-family:'Open Sans',sans-serif;
+	display:none;
+}
+
+#feedback_login p{
+	padding:1px 5px;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.username{
+	background-image:url(../images/user_icon.png);
+	background-repeat:no-repeat;
+	background-position:0 1px;
+}
+
+.password{
+	background-image:url(../images/key_icon.png);
+	background-repeat:no-repeat;
+	background-position:0 1px;
+}
+
+.input{
+	width:100%;
+	height:25px;
+	margin-top:5px;
+}
+
+.textfield{
+	width:82%;
+	height:35px;
+	margin-top:6px;
+	margin-bottom:8px;
+	margin-left:0;
+	margin-right:0;
+	border-radius:5px;
+	border:1px solid #bebebe;
+	padding-left:18%;
+}
+
+.submit_login{
+	width:100%;
+	height:35px;
+	margin:4px 0;
+	border-radius:5px;
+	background-color:#666666;
+	font-family:'Open Sans',sans-serif;
+	color:#fff;
+	font-size:13px;
+	border:1px solid #095779;
+}/*	END OF LOGIN
+----------------------*/
+
+/*		DASHBOARD
+---------------------------*/
+#form{
+	width:50%;
+}
+
+.activity{
+	width:700px;
+	margin:0 auto;
+	padding:10px 15px;
+}
+
+.act_head{
+	font-size:15px;
+	font-weight:bold;
+}
+
+.act_body{
+	width:95%;
+	font-size:14px;
+	float:left;
+}
+
+.act_input{
+	margin:10px 0;
+	height:30px;
+	width:100%;
+	font-size:16px;
+}
+
+.contain{
+	width:100%;
+	margin-top:25%;
+	float:left;
+	background:#fff;
+}
+
+.act_pub{
+	float:right;
+	background:#1da0f2;
+	height:35px;
+	width:auto;
+	color:#fff;
+	border-radius:5px;
+	font-size:14px;
+	font-weight:bold;
+	border:0;
+	margin:10px 5px;
+}
+
+.act_pub:hover{
+	background:#4a6eaa;
+}
+
+.contain a{
+	color:#000;
+}
+
+.bars{
+	width:45.5%;
+	margin:2% 2%;
+	height:120px;
+	background:#f6f5f7;
+	float:left;
+	border:1px solid #000;
+	cursor:pointer;
+}
+
+.bars p{
+	position:relative;
+	top:5%;
+	text-align:center;
+	font-weight:bold;
+}
+
+.bars p img{
+	width:55px;
+}/*		DASHBOARD
+--------------------------*/
+
+/*	TABLE
+------------------------*/
+.all_post{
+	width:100%;
+	background:#f6f6f6;
+	margin-bottom:10px;
+}
+
+.all_post th{
+	background:#666666;
+	color:#fff;
+	height:25px;
+	text-align:center;
+}
+
+.all_post td{
+	height:30px;
+	min-height:30px;
+	border-left:1px solid #666;
+	border-bottom:1px solid #666;
+	text-align:center;
+}
+
+a{
+	cursor:pointer;
+	color:blue;
+	text-decoration:underline;
+}
+/*	END OF TABLE
+------------------------*/
+
+/*		DIABOX
+------------------------*/
+#dialogoverlay{
+	display:none;
+	opacity:0.8;
+	position:fixed;
+	top:0px;
+	left:0px;
+	background:#fff;
+	width:100%;
+	z-index:10;
+}
+
+#dlgbox{
+	display:block;
+	top:75%;
+	left: 3;
+	position:absolute;
+	width:95%;
+	z-index:9999;
+	font-family:'Open Sans',sans-serif;
+}
+
+#dlg_header{
+	background-color:#666;
+	color:#fff;
+	font-size:18px;
+	padding:10px;
+	margin:10px 10px 0px 10px;
+}
+
+#dlg_body{
+	background-color:#ffffce;
+	color:#000;
+	font-size:14px;
+	padding:30px;
+	margin:0px 10px 0px 10px;
+	max-height:750px;
+	overflow:auto;
+}
+
+#dlg_body img{
+	width:950px;
+}
+
+.msg_input_text{
+	margin-right:75px;
+	margin-left:50px;
+	width:550px;
+	max-width:550px;
+	max-height:40px;
+	border:transparent;
+	border: 1px solid #f7e0e0;	
+}
+
+#dlg_footer{
+	background-color:#666;
+	text-align:right;
+	padding:5px;
+	margin:0px 10px 10px 10px;
+}
+
+#dlg_footer button{
+	background-color:#666;
+	color:#fff;
+	width:auto;
+	height:30px;
+	padding:5px;
+	border:0px;
+}
+
+.act_title_text{
+	margin:10px 0;
+	height:30px;
+	width:100%;
+	font-weight:bold;
+	font-size:16px;
+}
+
+/* The Close Button */
+.close {
+    color:#fff;
+    float:right;
+	position:relative;
+	top:-10px;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+a{
+	cursor:pointer;
+}
+
+.close:hover,
+.close:focus{
+    font-size:40px;
+    text-decoration:none;
+    cursor:pointer;
+}/*		END OF DIABOX
+------------------------*/
